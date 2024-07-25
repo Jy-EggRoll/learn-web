@@ -1,0 +1,27 @@
+# 超文本链接
+
+## `<a>`
+
+`<a>`中的可以是任意内容，超链接的点击对象甚至可以是图片。
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <a href="https://www.baidu.com/">
+        <img
+            src="https://bkimg.cdn.bcebos.com/pic/8326cffc1e178a82181e194df803738da977e839?x-bce-process=image/format,f_auto/quality,Q_70/resize,m_lfit,limit_1,w_536">
+    </a>
+</body>
+
+</html>
+```
+
+后期可以通过CSS来修改超链接的默认效果。
