@@ -1,74 +1,53 @@
 # 表格
 
-HTML中的表格是一种用来组织和显示数据的结构。表格是通过`<table>`标签创建的，包含了表头`<thead>`、表身`<tbody>`和表尾`<tfoot>`，其中每一行用`<tr>`标签表示，每个单元格用`<td>`（表数据）或`<th>`（表头）标签表示。
+## 表格的展示效果
 
-举个例子：
+### 表格的组成和特点
 
-```html
-<table>
-  <thead>
-    <tr>
-      <th>姓名</th>
-      <th>年龄</th>
-      <th>城市</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>张三</td>
-      <td>25</td>
-      <td>北京</td>
-    </tr>
-    <tr>
-      <td>李四</td>
-      <td>30</td>
-      <td>上海</td>
-    </tr>
-  </tbody>
-  <tfoot>
-    <tr>
-      <td colspan="3">总计</td>
-    </tr>
-  </tfoot>
-</table>
-```
+组成：行、列、单元格
 
-在这个例子中，表格包含了表头（姓名、年龄、城市）、两行数据（张三和李四）以及一个表尾（总计）。
+单元格特点：同行等高，同列等宽
 
-Tables in HTML are used to organize and display data in a structured format. They are created using the `<table>` tag and typically include a header (`<thead>`), a body (`<tbody>`), and a footer (`<tfoot>`), with each row represented by a `<tr>` tag and each cell by a `<td>` (table data) or `<th>` (table header) tag.
+### 表格标签
 
-For example:
+表格：`<table>`
+
+行：`<tr>`
+
+列：`<td>`
 
 ```html
-<table>
-  <thead>
-    <tr>
-      <th>Name</th>
-      <th>Age</th>
-      <th>City</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Zhang San</td>
-      <td>25</td>
-      <td>Beijing</td>
-    </tr>
-    <tr>
-      <td>Li Si</td>
-      <td>30</td>
-      <td>Shanghai</td>
-    </tr>
-  </tbody>
-  <tfoot>
-    <tr>
-      <td colspan="3">Total</td>
-    </tr>
-  </tfoot>
-</table>
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <table>
+        <tr>
+            <td>一行一列</td>
+            <td>一行二列</td>
+        </tr>
+        <tr>
+            <td>二行一列</td>
+            <td>二行二列</td>
+        </tr>
+    </table>
+</body>
+
+</html>
 ```
 
-In this example, the table includes headers (Name, Age, City), two rows of data (Zhang San and Li Si), and a footer (Total).
+VSCode中可以用快捷键：`table>tr*数量>td*数量{内容}`来实现快速创建表格。
 
-表格标签的使用使数据更加清晰和有条理，特别是在展示大量数据时非常有用。  
-The use of table tags makes data clearer and more organized, which is especially useful when displaying large amounts of data.
+## 表格的属性
+
+- border：边框
+- width：宽度
+- height：高度
+
+但是不推荐使用属性的形式调节表格的样式。
