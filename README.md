@@ -4,7 +4,7 @@
 
 ### 1.1 熟悉GitHub
 
-这个仓库的名字是统一使用小写字母和连字符的，这更加符合GitHub上仓库的命名规范。
+这个仓库的名字是统一使用小写字母和连字符的，这更加符合GitHub上有关HTML等前端技术的仓库的命名规范。
 
 ### 1.2 熟悉Git
 
@@ -12,7 +12,7 @@
 
 ### 1.3 储存笔记和练习，方便日后复习
 
-笔记（各个文件夹下的note.md）主要是跟随[网课](https://www.bilibili.com/video/BV1jj411P7Yp/?spm_id_from=333.1007.top_right_bar_window_default_collection.content.click&vd_source=436e96e6ebb966df2dab0e5a2892bda8)学习的过程中记录的。记录之后基本会让AI来进行整理和补充。复习阶段会让AI生成一些练习题（exercise.md），起到强化训练的作用。
+笔记（各个文件夹下的note.md）主要是跟随[网课](https://www.bilibili.com/video/BV1jj411P7Yp/?spm_id_from=333.1007.top_right_bar_window_default_collection.content.click&vd_source=436e96e6ebb966df2dab0e5a2892bda8)以及网页端的教程（如[菜鸟教程](https://www.runoob.com/)），学习的过程中记录的。记录之后基本会让AI来进行整理和补充。复习阶段会让AI生成一些练习题（exercise.md），起到强化训练的作用。
 
 ## 2. 仓库里有什么
 
