@@ -55,3 +55,4 @@ In this example:
 - The first form includes a text box and a submit button. `<input type="text">` is used for text input, and `<input type="submit">` is used to submit the form data.
 - The second form has two text boxes for entering a username and a birthday.
 - The third form includes a text box for entering a username and a password box for entering a password, along with a submit button for login.
+
