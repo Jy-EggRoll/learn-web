@@ -18,11 +18,11 @@
 
 ### 2.1 HTML
 
-待完善。
+见html-part文件夹。
 
 ### 2.2 CSS
 
-待完善。
+见css-part文件夹。
 
 ### 2.3 JavaScript
 
