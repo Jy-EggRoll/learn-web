@@ -16,11 +16,11 @@
 
 ## 2. 仓库里有什么
 
-### 2.1 HTML
+### 2.1 HTML基础和HTML进阶
 
 见html-part文件夹。
 
-### 2.2 CSS
+### 2.2 CSS基础和CSS进阶
 
 见css-part文件夹。
 
