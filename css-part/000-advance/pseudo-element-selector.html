@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <title>伪元素选择器</title>
+    <style>
+        p::first-letter {
+            font-size: 40px;
+            color: rebeccapurple
+        }
+
+        p::first-line {
+            background-color: yellow;
+        }
+
+        /* 修改鼠标选中的文字 */
+
+        p::selection {
+            background-color: purple;
+            color: orange;
+        }
+
+        /* input的提示文字 */
+
+        input::placeholder {
+            color: pink;
+        }
+
+        .number::before {
+            content: "￥";
+        }
+
+        .number::after {
+            content: ".00";
+        }
+    </style>
+</head>
+
+<body>
+    <p>知识点：lorem+数字随机生成文段。</p>
+    <p>下面的这一段内容是lorem1000生成的。</p>
+    <p>段首字母并不是一个元素，但是我们可以选中并且操作它，所以这个字母被称为伪元素。</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus nisi quisquam, ullam qui cum eos incidunt
+        voluptate quia, quos nulla a illo ut aliquam repellat accusamus corporis. Eveniet quidem iste ad qui autem
+        impedit quaerat reiciendis aut accusamus deserunt ratione doloribus delectus facere provident asperiores id
+        aliquid sint, beatae ipsam praesentium? Voluptatum doloremque tempora maxime dolores in est totam placeat
+        excepturi, nisi necessitatibus itaque minus, dolorum iste similique iure qui soluta nostrum distinctio at,
+        officiis dolorem! Beatae accusamus similique neque facere aspernatur vitae consequatur porro necessitatibus
+        adipisci tempore. Provident dolore, maiores distinctio quasi nesciunt eveniet harum iusto nihil aliquid illum!
+    </p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio excepturi error ratione ipsam quas nesciunt,
+        quisquam minima perspiciatis? Ad, doloribus!</p>
+    <input type="text" placeholder="请输入您的信息">
+    <p class="number">199</p>
+    <p class="number">299</p>
+    <p class="number">399</p>
+    <p class="number">499</p>
+</body>
+
+</html>

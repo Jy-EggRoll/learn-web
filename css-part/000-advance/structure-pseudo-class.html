@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>伪类练习</title>
+    <style>
+        /* 结构伪类 */
+
+        .pseudo-class>p:first-of-type {
+            color: red;
+        }
+
+        /* 动态伪类 */
+        a:link {
+            color: orange
+        }
+
+        a:visited {
+            color: gray;
+        }
+
+        a:hover {
+            color: purple;
+        }
+
+        a:active {
+            color: yellow;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="pseudo-class">
+        <span>这是一个span</span>
+        <p>第一个自然段</p>
+        <p>第二个自然段</p>
+        <p>第三个自然段</p>
+        <p>第四个自然段</p>
+    </div>
+    <div class="a"><a href="#">第一个超链接</a><a href="#">第二个超链接</a><a href="#">第三个超链接</a></div>
+</body>
+
+</html>
