@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS的三大特性</title>
+    <style>
+        p {
+            color: red;
+        }
+
+        p {
+            color: green;
+        }
+
+        #test {
+            color: blue;
+            color: purple;
+        }
+
+        .div-class {
+            color: red
+        }
+    </style>
+</head>
+<body>
+    <ol>
+        <li>层叠性</li>
+        <p>也就是后来居上原则。</p>
+        <li>继承性</li>
+        <p>常见的可继承属性：color、font、line、text等。</p>
+        <li>优先级</li>
+        <p>!important > 行内样式 > ID > 类 > 元素 > 通配 > 继承</p>
+    </ol>
+    <hr>
+    <p id="test">这是一个段落。</p>
+    <hr>
+    <div class="div-class">
+        <p>这是一个段落</p>
+        <p>这是一个段落</p>
+        <p>
+            这是一个
+            <span>
+                span
+            </span>
+        </p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>选择器优先级——基础</title>
+    <style>
+        h2 {
+            color: red;
+        }
+
+        /* 通配选择器的优先级最低 */
+        * {
+            color: blue;
+        }
+
+        p {
+            color: green;
+        }
+
+        /* 同类型选择器的原则：后来居上 */
+        p {
+            color: yellow;
+        }
+
+        /* 类选择器的优先级较高 */
+        .para {
+            color: purple;
+        }
+
+        /* ID选择器的优先级最高 */
+        #para {
+            color: orange;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>这是一个标题</h2>
+    <p>这是一个段落</p>
+    <p class="para">这也是一个段落</p>
+    <p class="para" id="para">这也是一个段落</p>
+</body>
+
+</html>

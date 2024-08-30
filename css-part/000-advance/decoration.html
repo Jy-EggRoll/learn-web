@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .first {
+            /* 也可以设置颜色，没有顺序上的要求 */
+            text-decoration: overline dotted;
+        }
+
+        a {
+            /* 移除了超链接的下划线 */
+            text-decoration: none;
+        }
+
+        del {
+            text-decoration: green wavy line-through;
+        }
+
+        #indent {
+            text-indent: 32px;
+
+            /* 两端对齐 */
+            text-align: justify;
+        }
+    </style>
+</head>
+<body>
+    <p class="first" id="indent">第一个Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo odio iusto eaque, nulla aspernatur praesentium. Nobis, eaque nisi. Rem, perferendis.</p>
+    <p class="second">第二个</p>
+    <p class="third">第三个</p>
+    <a href="#">超链接</a>
+    <ins>插入的文本</ins>
+    <del>删除的文本</del>
+    <p>样式都可以用 CSS 来修正Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos, fugit doloremque odit enim magni natus voluptatibus, minus error nulla ut suscipit qui. Cumque assumenda facere nam. Omnis enim officiis dolorem.</p>
+</body>
+</html>

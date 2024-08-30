@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>选择器优先级——进阶</title>
+    <style>
+        .container span.first-span {
+            color: red;
+        }
+
+        div>p>span:first-child {
+            color: blue;
+        }
+        
+        /* !important 权重最高 */
+        .first-span {
+            color: green !important;
+        }
+    </style>
+</head>
+
+<body>
+    <p>进阶内容是权重计算，VSCode在悬浮时可以查看选择器的权重。</p>
+    <!-- 放置一个容器 -->
+    <div class="container">
+        <p>
+            <span class="first-span">这是一个span标签</span>
+            <span>这是第二个span标签</span>
+        </p>
+    </div>
+</body>
+
+</html>

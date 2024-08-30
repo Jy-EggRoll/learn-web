@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            font-size: 30px;
+        }
+
+        .text-spacing-2  {
+            /* 字母之间的间距 */
+            /* 每个汉字也被认为是一个字母 */
+            letter-spacing: 10px;
+        }
+
+        .text-spacing-3 {
+            /* 单词之间的间距 */
+            /*靠的是空格来区分是不是不同的单词 */
+            /* 由于写中文一般不加空格，所以这个特性对中文是无效的 */
+            word-spacing: 20px;
+        }
+    </style>
+</head>
+<body>
+    <p>如果属性值写负值，可以让间距缩小。</p>
+    <div>英文：If you have a dream, you have to defend it.</div>
+    <div class="text-spacing-2">英文：If you have a dream, you have to defend it.</div>
+    <div class="text-spacing-3">英文：If you have a dream, you have to defend it.</div>
+</body>
+</html>
